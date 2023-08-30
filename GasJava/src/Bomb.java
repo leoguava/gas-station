@@ -4,10 +4,10 @@ import java.util.List;
 public class Bomb {
 
     public List<Car> cars = new ArrayList<>();
-    double gas = 5;
-    double ethanol = 4;
-    double diesel = 6;
-    double liters;
+    private double gas = 5.2;
+    private double ethanol = 4.7;
+    private double diesel = 6.4;
+    private double liters;
     double price;
 
 
